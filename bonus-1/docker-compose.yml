@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+    THA-todo:
+        build: . # the directory, where the Dockerfile is. This is like the docker build command - you don't need to run that manually!
+        ports:
+            - '5000:5000'
+        depends_on:
+            - postgres # start other services first, if there are any dependencies
+    postgres:
+        image: postgres:16
+        environment:
+            POSTGRES_PASSWORD: mysecretpassword
+        volumes:
+            - applied-ai-demo-postgres-data:/var/lib/postgresql/data
+
+# a network is automatically created for all services within the same docker-compose.yml
+
+volumes:
+    applied-ai-demo-postgres-data:
