@@ -93,7 +93,7 @@ and run it:
 docker run --network applied-ai-demo-network -p 5000:5000 applied-ai-docker-tutorial:step-4
 ```
 
-Tip: Make sure to stop old todo app containers if one was started with the `--detached` flag. Otherwise, it won't work since our port (5000) is still being used.
+Tip: Make sure to stop old todo app containers if one was started with the `--detach` flag. Otherwise, it won't work since our port (5000) is still being used.
 
 ### Be happy!
 
