@@ -56,7 +56,7 @@ Here, we need to specify the port mapping with `--publish <host_port>:<container
 
 What, if we want to change our source code? Our todos should stay the same, because they are saved to a database, right?
 
-Try to change something in `app.py` and rebuild with
+First, stop the running container with `Ctrl+C` and then try to change something in `app.py` and rebuild with
 
 ```shell
 docker build -t applied-ai-docker-tutorial:step-2-change .
