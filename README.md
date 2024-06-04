@@ -23,16 +23,16 @@ To create or edit a file, simply type `nano <filename>` and make the changes. To
 
 ## Structure
 
-0. [Introduction](step-0-intro/README.md) (5 min)
-1. [Our first container](step-1/README.md) (5 min)
-2. [Simple web app](step-2/README.md) (10 min)
-3. [Data persistance](step-3/README.md) (10 min)
-4. [Multi-container apps](step-4/README.md) (10 min)
+0. [Introduction](step-0-intro/README.md)
+1. [Our first container](step-1/README.md)
+2. [Simple web app](step-2/README.md)
+3. [Data persistance](step-3/README.md)
+4. [Multi-container apps](step-4/README.md)
 
 Bonus:
 
-1. [Docker compose](bonus-1/README.md) (5-10 min)
-2. [More useful Docker commands](bonus-2/README.md) (5-10 min)
+1. [Docker compose](bonus-1/README.md)
+2. [More useful Docker commands](bonus-2/README.md)
 
 ## Further reading
 
